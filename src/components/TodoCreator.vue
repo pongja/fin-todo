@@ -13,7 +13,7 @@
 </template>
 <script>
     import { mapStores } from 'pinia'
-    import { todoStore } from '~/store/todo.js'
+    import { todoStore } from '~/store/todo'
     export default {
         data(){
             return {
