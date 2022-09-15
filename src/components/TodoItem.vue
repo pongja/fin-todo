@@ -49,7 +49,7 @@
            this.todoStore.updateTodo({
               id: this.todo.id,
               title: this.title,
-              done: this.todo.done
+              done: this.done
       })
            }
         }

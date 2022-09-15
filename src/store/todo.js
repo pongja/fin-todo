@@ -15,8 +15,11 @@ export const todoStore = defineStore( 'todo', {
         //표시
         if(state.filters.done !== 'all'){
            filteredTodos = state.todos.filter(todo =>{
+            console.log(state.filters.done)
                 switch (state.filters.done) {
+                    
                     case 'true':
+                        console.log(todo)
                         return todo.done
                     case 'false':
                         return !todo.done

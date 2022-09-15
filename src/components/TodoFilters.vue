@@ -34,7 +34,7 @@ export default {
         sortBy: {
           title: '정렬',
           values: [
-            { name: '사용자지정 순', value: '' },
+            { name: '사용자지정 순', value: 'none' },
             { name: '최신 순', value: 'newest' },
             { name: '오래된 순', value: 'oldest' }
           ]
